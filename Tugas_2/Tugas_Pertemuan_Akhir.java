@@ -56,11 +56,11 @@ public class Tugas_Pertemuan_Akhir {
             case "y":
                 bersih();
                 System.out.println("==================================================");
-                System.out.println("==     JavaScript adalah bahasa pemrograman     ==");
-                System.out.println("==     javascript adalah bahasa pemrograman     ==");
-                System.out.println("==     JAVASCRIPT ADALAH BAHASA PEMROGRAMAN     ==");
-                System.out.println("==                  pemrograman                 ==");
-                System.out.println("==          tingkat tinggi dan dinamis          ==");
+                metode1();
+                metode2();
+                metode3();
+                metode4();
+                metode5();
                 System.out.println("==================================================");
                 lanjutan();
                 break;
@@ -162,6 +162,26 @@ public class Tugas_Pertemuan_Akhir {
         System.out.println("== Grade       : " +  grade);
         System.out.println("==============================");
         lanjutan();
+    }
+
+    static void metode1(){
+        System.out.println("==     JavaScript adalah bahasa pemrograman     ==");
+    }
+
+    static void metode2(){
+        System.out.println("==     javascript adalah bahasa pemrograman     ==");
+    }
+
+    static void metode3(){
+        System.out.println("==     JAVASCRIPT ADALAH BAHASA PEMROGRAMAN     ==");
+    }
+
+    static void metode4(){
+        System.out.println("==                  pemrograman                 ==");
+    }
+
+    static void metode5(){
+        System.out.println("==          tingkat tinggi dan dinamis          ==");
     }
 
     static void keluar(){
