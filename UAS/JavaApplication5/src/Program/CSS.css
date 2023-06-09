@@ -1,0 +1,170 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 21, 2023, 1:15:02 PM
+    Author     : Asus
+*/
+
+.txtuser{
+    -fx-text-box-border: #ffffff;
+    -fx-background-color:#ffffff;
+    -fx-background-radius : 4;
+    -fx-padding : 8;
+}
+
+.txtuser:focused{
+    -fx-padding : 6;
+    -fx-background-radius : 4;
+    -fx-border-radius : 3;
+    -fx-border-width : 2;
+    -fx-background-color:#ffffff;
+    -fx-background : #ffffff;
+    -fx-border-color:  #3F8EFC;
+}
+
+.txtregis:hover{
+    -fx-text-fill : #2667ff;
+}
+
+.btn{
+    -fx-background-color : #2667ff;
+    -fx-background-radius : 4;
+    -fx-text-fill : #ffffff;
+    -fx-border-radius : 4;
+}
+
+.btn:hover{
+    -fx-border-color:  #2667ff;
+    -fx-background-color: #ffffff;
+    -fx-text-fill : #2667ff;
+    -fx-border-radius : 4;
+    -fx-background-radius : 4;
+}
+
+.dashboard{
+    -fx-background-color : #ffffff;
+    -fx-background-radius : 5;
+    -fx-opacity : 0.4;
+}
+
+.tabel{
+    -fx-background-color : transparent;
+    -fx-background-radius : 6;
+    -fx-control-inner-background-alt: -fx-control-inner-background ;
+}
+
+.tabel .column-header-background{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0 0 0 0;
+    -f-background-radius:6px 6px 0px 0px;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-background-color: #2667ff ;
+    -fx-text-fill:#ffffff;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+.tabel .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size:40px;
+}
+
+.tabel .column-header .label{
+    -fx-text-fill:#2667ff;
+    -fx-font-family:"Calibri Semi Bold";
+    
+}
+
+.tabel .table-column{
+    -fx-alignment:CENTER;
+}
+
+.tabel .table-row-cell{
+    -fx-border-color:#2667ff;
+    -fx-border-width: 0;
+}
+
+.tabel .cell{
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+.btndash{
+    -fx-background-color : transparent;
+    -fx-background-radius : 4;
+    -fx-text-fill : #ffffff;
+    -fx-background-radius : 5;
+}
+
+.btndashhps{
+    -fx-background-color : transparent;
+    -fx-background-radius : 4;
+    -fx-text-fill : #ffffff;
+    -fx-background-radius : 5;
+}
+
+.btndashhps:hover{
+    -fx-border-color: #ed1c24;
+    -fx-border-radius : 4;
+    -fx-border-width: 1.5;
+}
+
+.btndash:hover{
+    -fx-border-color:  #2667ff;
+    -fx-border-radius : 4;
+    -fx-border-width: 1.5;
+}
+
+.cbjenis{
+    -fx-background-color: #ffffff;
+    -fx-font-family:"Gill Sans MT";
+    -fx-font-size : 14px;
+}
+
+.cbjenis > .list-cell{
+    -fx-background-color: #ffffff;
+    -fx-background-radius : 0;
+    -fx-text-fill: #2667ff;
+}
+
+.cbjenis > .arrow-button{
+    -fx-text-fill: #2667ff;
+}
+
+.cbjenis .list-cell:hover{
+    -fx-background-color: #2667ff;
+    -fx-text-fill: #ffffff;
+}
+
+.cbjenis .cell:selected{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #2667ff;
+}
+
+.radio-button .radio {
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: #2667ff;
+    -fx-background-insets: 0;
+}
+
+.tabel1{
+    -fx-background-color : #ffffff;
+    -fx-background-radius : 6;
+    -fx-opacity : 0.5;
+}
+
+.btndash1{
+    -fx-background-color : #ffffff;
+    -fx-background-radius : 6;
+    -fx-opacity : 0.5;
+}

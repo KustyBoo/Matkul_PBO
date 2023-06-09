@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="loginpage" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #edf2f4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Program.LoginController">
+    <children>
+      <ImageView fx:id="background1" fitHeight="410.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gambar/background1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane id="AnchorPane" fx:id="halregis" layoutY="400.0" prefHeight="400.0" prefWidth="600.0" visible="false">
+         <children>
+            <Button fx:id="btnlogin1" layoutX="206.0" layoutY="301.0" onAction="#registrasi" prefHeight="38.0" prefWidth="186.0" styleClass="btn" stylesheets="@CSS.css" text="Sign-up" textFill="WHITE">
+               <font>
+                  <Font name="Gill Sans MT" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="label1" layoutX="219.0" layoutY="356.0" minHeight="16" minWidth="57.0" prefHeight="18.0" prefWidth="116.0" text="Sudah punya akun?">
+               <font>
+                  <Font name="Gill Sans MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtuser1" layoutX="207.0" layoutY="78.0" prefHeight="38.0" prefWidth="186.0" promptText="Username" styleClass="txtuser" stylesheets="@CSS.css">
+               <font>
+                  <Font name="Gill Sans MT" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="228.0" layoutY="25.0" text="Registrasi" textFill="#3f8efc">
+               <font>
+                  <Font name="Gill Sans MT Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtregis1" layoutX="338.0" layoutY="356.0" minHeight="16" minWidth="40.0" onMouseClicked="#menulogin" prefHeight="18.0" prefWidth="40.0" styleClass="txtregis" stylesheets="@CSS.css" text="Masuk">
+               <font>
+                  <Font name="Gill Sans MT" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <PasswordField fx:id="txtpass1" layoutX="207.0" layoutY="191.0" prefHeight="38.0" prefWidth="186.0" promptText="Password" styleClass="txtuser" stylesheets="@CSS.css">
+               <font>
+                  <Font name="Gill Sans MT" size="14.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="txtemail" layoutX="208.0" layoutY="134.0" prefHeight="38.0" prefWidth="186.0" promptText="Email" styleClass="txtuser" stylesheets="@CSS.css">
+               <font>
+                  <Font name="Gill Sans MT" size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtpass11" layoutX="206.0" layoutY="246.0" prefHeight="38.0" prefWidth="186.0" promptText="Konfirmasi Password" styleClass="txtuser" stylesheets="@CSS.css">
+               <font>
+                  <Font name="Gill Sans MT" size="14.0" />
+               </font>
+            </PasswordField>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="hallogin" prefHeight="400.0" prefWidth="600.0">
+         <children>
+              <Button fx:id="btnlogin" layoutX="206.0" layoutY="255.0" onAction="#login" prefHeight="38.0" prefWidth="186.0" styleClass="btn" stylesheets="@CSS.css" text="Sign-in" textFill="WHITE">
+               <font>
+                  <Font name="Gill Sans MT" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+              <Label fx:id="label" layoutX="231.0" layoutY="320.0" minHeight="16" minWidth="57.0" prefHeight="18.0" prefWidth="66.0" text="Registrasi?">
+               <font>
+                  <Font name="Gill Sans MT" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtuser" layoutX="206.0" layoutY="132.0" prefHeight="38.0" prefWidth="186.0" promptText="Username" styleClass="txtuser" stylesheets="@CSS.css">
+               <font>
+                  <Font name="Gill Sans MT" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="257.0" layoutY="66.0" text="Login" textFill="#3f8efc">
+               <font>
+                  <Font name="Gill Sans MT Bold" size="32.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtregis" layoutX="301.0" layoutY="320.0" minHeight="16" minWidth="57.0" onMouseClicked="#menuregis" prefHeight="18.0" prefWidth="66.0" styleClass="txtregis" stylesheets="@CSS.css" text="Klik Disini">
+               <font>
+                  <Font name="Gill Sans MT" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <PasswordField fx:id="txtpass" layoutX="206.0" layoutY="191.0" prefHeight="38.0" prefWidth="186.0" promptText="Password" styleClass="txtuser" stylesheets="@CSS.css">
+               <font>
+                  <Font name="Gill Sans MT" size="14.0" />
+               </font>
+            </PasswordField>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
